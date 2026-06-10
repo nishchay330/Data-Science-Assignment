@@ -52,11 +52,35 @@ dict={"name":"nishchay","age":"21","course":"BTECH","address":"jaipur"}
 print(dict.keys())
 print(dict.values())
 print(dict.items())
+dict["address"]="kota"
+print(dict)
+dict["branch"]="CS(AI)"
+print(dict)
 
+# QUESTION 7
+lst=[1,2,3,4,[2,5],7]
+print(lst[4][1])
 
+# QUESTUION 8
+num=int(input("enter the value"))
+num+=10
+print(num)
 
+# QUESTION 9
+num1=int(input("enter the value1"))
+num2=int(input("enter the value2"))
+num3=num1*num2
+print(num3)
 
+# QUESTION 10
+dict={"name":"nishchay","age":"21","course":"BTECH","address":"jaipur"}
+print(dict.get('name'))  #used to get the value
+print(dict.keys())  #used to get the keys
+print(dict.values())  #used to get the values
+print(dict.items())  #used to get all the items in the dictionary
 
-
-
-
+# QUESTION 11
+list1 = [10, 20, 30, 40, 50]
+list2 = list1.copy()
+print("Original List:", list1)
+print("Copied List:", list2)
